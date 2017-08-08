@@ -18,7 +18,7 @@ public class CubeController : MonoBehaviour {
 
 		Debug.Log ("OnCollisionEnter2D");
 
-		if (other.gameObject.tag == "GroundTag" || other.gameObject.tag == "Cubetag") {
+		if (other.gameObject.tag == "GroundTag" || other.gameObject.tag == "CubeTag") {
 			gameObject.GetComponent<AudioSource> ().Play();
 		
 		}
